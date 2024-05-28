@@ -25,4 +25,26 @@
     border-color: #ddd;
 }
 
-.button
+.text-color-nav {
+    font-size: medium;
+    color: #aaa;
+}
+
+.text-color-nav:hover {
+    font-size: small;
+    color: #ddd;
+}
+
+.button-border {
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    color: #aaa;
+}
+
+.button-border:hover {
+    border: solid 2px;
+    border-color: #aaa;
+}
