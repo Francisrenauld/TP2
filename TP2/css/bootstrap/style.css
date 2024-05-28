@@ -1,0 +1,28 @@
+.pt-sans-narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-narrow-bold {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ font-weight: Use a value from 100 to 900*/
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.border-bot-2px {
+    border-bottom: solid 2px;
+    border-color: #ddd;
+}
+
+.button
