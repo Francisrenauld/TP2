@@ -23,31 +23,30 @@
                 <button class="rounded-circle button-border" type="button">?</button>
             </div>
         </nav>
-        <div id="form">
-            <form>
-                <input id="title" type="text" placeholder="Titre" style="font-weight: 600;">
-                <div>
-                    <textarea id="creerNote" placeholder="Créer une note..."></textarea>
-                </div>
-                <div class="color-buttons">
-                    <label><input type="radio" name="color" value="white"></label>
-                    <label><input type="radio" name="color" value="red"></label>
-                    <label><input type="radio" name="color" value="orange"></label>
-                    <label><input type="radio" name="color" value="yellow"></label>
-                    <label><input type="radio" name="color" value="green"></label>
-                    <label><input type="radio" name="color" value="blue"></label>
-                </div>
-                <div class="error-messages">
-                    <ul class="hidden">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <button id="submitBtn" type="submit">Créer</button>
-            </form>
-        </div>
+        <form id="form">
+            <input id="title" type="text" placeholder="Titre" style="font-weight: 600;">
+            <div>
+                <textarea id="createNote" placeholder="Créer une note..."></textarea>
+            </div>
+            <div class="color-buttons">
+                <label><input type="radio" name="color" value="white"></label>
+                <label><input type="radio" name="color" value="red"></label>
+                <label><input type="radio" name="color" value="orange"></label>
+                <label><input type="radio" name="color" value="yellow"></label>
+                <label><input type="radio" name="color" value="green"></label>
+                <label><input type="radio" name="color" value="blue"></label>
+            </div>
+            <div class="error-messages">
+                <ul class="hidden">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <button id="submitBtn" type="submit">Créer</button>
+        </form>
+
 
 
 
@@ -65,7 +64,6 @@
         </section>
 
         <div id="notes" class="row">
-
         </div>
     </main>
     <footer>
