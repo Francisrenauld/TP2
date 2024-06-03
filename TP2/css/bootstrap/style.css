@@ -82,12 +82,14 @@ form {
 #title {
     border: none;
     padding: 5px;
+    width: 680px;
 }
 
 #createNote {
     border: none;
     resize: none;
     padding: 5px;
+    width: 680px;
 }
 
 #formContainer {
@@ -97,7 +99,7 @@ form {
 }
 
 #submitBtn {
-    width: 696px;
+    width: 680px;
     border: none;
     background: none;
     margin-left: auto;
@@ -122,26 +124,29 @@ input[type=radio]:checked {
     border: 2px solid black;
 }
 
-#whiteBtn {
+.applyWhite {
     color: fff;
 }
 
-#redBtn {
+.applyRed {
     background-color: #f28b82;
 }
 
-#orangeBtn {
+.applyOrange {
     background-color: #fbbc04;
 }
 
-#yellowBtn {
+.applyYellow {
     background-color: #FFF475;
 }
 
-#greenBtn {
+.applyGreen {
     background-color: #ccff90;
 }
 
-#blueBtn {
+.applyBlue {
     background-color: #a7ffeb;
+}
+.container-fluid{
+    max-width: 700px;
 }
