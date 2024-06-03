@@ -148,7 +148,7 @@ input[type=radio]:checked {
     background-color: #a7ffeb;
 }
 
-.container-fluid {
+.container-fluid-form {
     max-width: 700px;
 }
 
@@ -160,4 +160,8 @@ ul {
 .hide {
 
     display: none;
+}
+
+#colorBtn>label {
+    padding: 10px;
 }
