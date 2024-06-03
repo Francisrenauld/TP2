@@ -187,3 +187,40 @@ ul {
 #colorBtn>label {
     padding: 10px;
 }
+
+.imgContainer{
+    text-align: center;
+}
+
+.imgAbout{
+    height: 300px;
+    width: 300px;
+}
+
+#notoImg{
+    font-weight: 500;
+    font-family: "PT Sans Narrow", sans-serif;
+    vertical-align:middle;
+    font-size: 100px;
+    color: #aaa;
+    padding-left: 10px;
+}
+
+.aboutTitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 40px;
+    color: #aaa;
+}
+
+
+
+
+.button-border-about {
+    border: 2px solid #ddd;   
+    color: #aaa;
+    background-color: white;
+    padding: 3px;
+}
