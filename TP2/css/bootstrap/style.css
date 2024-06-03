@@ -53,11 +53,13 @@
     border-color: #aaa;
 }
 
-#form {
+form {
     width: 700px;
     border: 2px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    margin-top: 0, auto;
+
 }
 
 .border-note-clear {
@@ -79,11 +81,15 @@
 
 #title {
     border: none;
+    padding: 5px;
+    width: 680px;
 }
 
 #createNote {
     border: none;
     resize: none;
+    padding: 5px;
+    width: 680px;
 }
 
 #formContainer {
@@ -93,7 +99,7 @@
 }
 
 #submitBtn {
-    width: 696px;
+    width: 680px;
     border: none;
     background: none;
     margin-left: auto;
@@ -118,28 +124,32 @@ input[type=radio]:checked {
     border: 2px solid black;
 }
 
-#whiteBtn {
+.applyWhite {
     color: fff;
 }
 
-#redBtn {
+.applyRed {
     background-color: #f28b82;
 }
 
-#orangeBtn {
+.applyOrange {
     background-color: #fbbc04;
 }
 
-#yellowBtn {
+.applyYellow {
     background-color: #FFF475;
 }
 
-#greenBtn {
+.applyGreen {
     background-color: #ccff90;
 }
 
-#blueBtn {
+.applyBlue {
     background-color: #a7ffeb;
+}
+
+.container-fluid {
+    max-width: 700px;
 }
 
 ul {
@@ -150,8 +160,4 @@ ul {
 .hide {
 
     display: none;
-}
-
-#note>p {
-    padding: 5px;
 }
