@@ -79,6 +79,11 @@ form {
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
 }
 
+#buttonForAbout {
+    text-decoration: none;
+    color: #aaa;
+}
+
 #title {
     border: none;
     padding: 5px;
@@ -162,34 +167,23 @@ ul {
     display: none;
 }
 
-.imgAbout{
-    width: 300px;
-    height: 300px;
-    text-align: center;
-
+#titleNote {
+    padding-left: 20px;
 }
 
-.imgContainer{
-    text-align: center;
+#notes {
+    padding-left: 25px;
 }
 
-.aboutTitle{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: #aaa;
-    font-weight: 500;
-    font-size:50px;
-    font-family: "PT Sans Narrow", sans-serif;
+#note-cree {
+    margin: 20px;
 }
 
-.aboutContent{
-    font-family: "PT Sans Narrow", sans-serif;
+#note-cree>p {
+    padding: 5px;
+    word-wrap: break-word;
 }
 
-#notoImg{
-    
-    color: #aaa;
-    font-weight: 500;
-    font-size:100px;
-    font-family: "PT Sans Narrow", sans-serif;
+#colorBtn>label {
+    padding: 10px;
 }
