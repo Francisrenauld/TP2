@@ -148,7 +148,7 @@ input[type=radio]:checked {
     background-color: #a7ffeb;
 }
 
-.container-fluid {
+.container-fluid-form {
     max-width: 700px;
 }
 
@@ -160,4 +160,36 @@ ul {
 .hide {
 
     display: none;
+}
+
+.imgAbout{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.imgContainer{
+    text-align: center;
+}
+
+.aboutTitle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #aaa;
+    font-weight: 500;
+    font-size:50px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.aboutContent{
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+#notoImg{
+    
+    color: #aaa;
+    font-weight: 500;
+    font-size:100px;
+    font-family: "PT Sans Narrow", sans-serif;
 }
