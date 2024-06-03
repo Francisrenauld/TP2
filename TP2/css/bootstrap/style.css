@@ -45,7 +45,7 @@
     width: 35px;
     border-radius: 50%;
     border: 2px solid #ddd;
-    color: #aaa;
+    background-color: #ffffff;
 }
 
 .button-border:hover {
@@ -188,25 +188,25 @@ ul {
     padding: 10px;
 }
 
-.imgContainer{
+.imgContainer {
     text-align: center;
 }
 
-.imgAbout{
+.imgAbout {
     height: 300px;
     width: 300px;
 }
 
-#notoImg{
+#notoImg {
     font-weight: 500;
     font-family: "PT Sans Narrow", sans-serif;
-    vertical-align:middle;
+    vertical-align: middle;
     font-size: 100px;
     color: #aaa;
     padding-left: 10px;
 }
 
-.aboutTitle{
+.aboutTitle {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 500;
@@ -215,11 +215,14 @@ ul {
     color: #aaa;
 }
 
-
+.button-border-about:hover {
+    border: solid 2px;
+    border-color: #aaa;
+}
 
 
 .button-border-about {
-    border: 2px solid #ddd;   
+    border: 2px solid #ddd;
     color: #aaa;
     background-color: white;
     padding: 3px;
