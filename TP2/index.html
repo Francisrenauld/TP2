@@ -20,7 +20,8 @@
                     <img src="img/icon.svg" alt="icon" width="30" height="30" class="d-inline-block align-text-bot">
                     Noto
                 </a>
-                <button class="rounded-circle button-border" type="button">?</button>
+                <a id="buttonForAbout" href="about.html"><button class="rounded-pill button-border"
+                        type="button">?</button></a>
             </div>
         </nav>
 
@@ -31,7 +32,7 @@
                     <textarea id="createNote" placeholder="Créer une note..."></textarea>
                 </div>
                 <div id="colorBtn">
-                    <label><input class="applyWhite" type="radio" name="color" value="white"></label>
+                    <label><input class="applyWhite" type="radio" name="color" value="white" checked></label>
                     <label><input class="applyRed" type="radio" name="color" value="red"></label>
                     <label><input class="applyOrange" type="radio" name="color" value="orange"></label>
                     <label><input class="applyYellow" type="radio" name="color" value="yellow"></label>
@@ -48,7 +49,7 @@
             </form>
         </div>
         <section>
-            <h2 class="montserrat text-color-h2">NOTES</h2>
+            <h2 id='titleNote' class="montserrat text-color-h2">NOTES</h2>
         </section>
 
         <div id="notes" class="row">
