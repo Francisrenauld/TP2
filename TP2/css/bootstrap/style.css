@@ -147,11 +147,9 @@ input[type=radio]:checked {
 .applyBlue {
     background-color: #a7ffeb;
 }
-<<<<<<< HEAD
-.container-fluid{
+.container-fluid-form{
     max-width: 700px;
 }
-=======
 
 ul {
     list-style-type: none;
@@ -162,4 +160,3 @@ ul {
 
     display: none;
 }
->>>>>>> 7c2ae7af4f3b7d7f242e02eb51c92cf0c3bc0268
